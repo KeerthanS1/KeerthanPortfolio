@@ -174,7 +174,7 @@ const Skills = () => {
                 whileHover="hover"
                 animate={clickedSkill === skill.name ? "click" : "visible"}
                 variants={{
-                  hover: hoverVariants.hover,
+                  // hover: hoverVariants.hover,
                   click: clickVariants.click,
                 }}
                 onClick={() => handleSkillClick(skill.website, skill.name)}
