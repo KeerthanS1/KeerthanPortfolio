@@ -171,7 +171,6 @@ const Skills = () => {
               <motion.div
                 key={skill.name}
                 className="flex flex-col items-center group cursor-pointer relative"
-                variants={itemVariants}
                 whileHover="hover"
                 animate={clickedSkill === skill.name ? "click" : "visible"}
                 variants={{
